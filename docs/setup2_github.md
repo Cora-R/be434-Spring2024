@@ -16,11 +16,11 @@ First, create your free [GitHub](http://github.com) account
 
 ## Copy the course repository to your own GitHub account
 
-Next, go to the [course repository](https://github.com/bhurwitz33/be434-spring-2023) and click the "Fork" button so as to make a copy of the code into your own Github account.
+Next, go to the [course repository](https://github.com/hurwitzlab/be434-Spring2024) and click the "Fork" button so as to make a copy of the code into your own Github account.
 
-* Go to [the course repo](https://github.com/bhurwitz33/be434-spring-2023)
+* Go to [the course repo](https://github.com/hurwitzlab/be434-Spring2024)
 * Click the "Fork" button (upper-right)
-* Indicate that you will use it for personal reasons
+* Click "Create fork"
 
 ![1git](./images/1_github_repo_to_fork.png "Copying a repository")
 
@@ -62,15 +62,16 @@ brew install git
 * Download the .exe Git installation program from [Git](https://git-scm.com/) for your computer
 * Follow all defaults except for the following two. These are important settings, otherwise you will end up with an error saying that your Python tests fail due to "\r" return characters at the end of every line in your code. No fun!
 
-
 ![4git](./images/1_win_git_editor.png "Tell Git you would like to use VS code as your editor.")
 
 ![5git](./images/2_win_line_conv.png "Tell Git you want Check-out as is, commit Unix-style line endings.")
 
 
 ## Install GitHub Desktop
-One option for using Git, is to download the Desktop version of the program [here](https://desktop.github.com/). Once you have Downloaded it, login to GitHub with Github Desktop and clone the BE434-spring-2023 repository to your laptop.
+Next, download [GitHub Desktop](https://desktop.github.com/) for your computer. Once you have downloaded GitHub Desktop, you can "clone" your class repository to your local computer.
 
+* Go to File -> Settings -> accounts (login to your GitHub account here)
+* Go to File -> Clone Repository (enter the url for your class repository and select a location on your computer to download it to)
 
 ## Authors
 

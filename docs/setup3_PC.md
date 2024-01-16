@@ -146,7 +146,7 @@ You can also use the [GitHub Desktop application](https://desktop.github.com/) t
 
 ## Installing Python modules for running tests on your code
 
-Now that you have downloaded the class repository, you can install all of the Python modules we will use in the class to test you code (found in the be434-spring-2023/docs/requirements.txt file). Python modules (or code packages) are written by people in Python community and can be used by anyone to perform certain functions in Python. We are going to use several Python modules in this class to test your code and make sure it meets community standards. Open a terminal in VS Code (Terminal -> New Terminal) which should take you to the be434-spring-2023 folder (that you opened when you cloned the repository above), then navigate to the docs folder like so:
+Now that you have downloaded the class repository, you can install all of the Python modules we will use in the class to test you code (found in the be434-Spring2024/docs/requirements.txt file). Python modules (or code packages) are written by people in Python community and can be used by anyone to perform certain functions in Python. We are going to use several Python modules in this class to test your code and make sure it meets community standards. Open a terminal in VS Code (Terminal -> New Terminal) which should take you to the be434-Spring2024 folder (that you opened when you cloned the repository above), then navigate to the docs folder like so:
 
 ```
 cd ./docs

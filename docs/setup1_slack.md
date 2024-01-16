@@ -10,9 +10,9 @@ To get started, you will need to establish a free Slack account. To do this, go 
 
 Next, you will need to install Slack on your computer and login. Download the PC version [here](https://slack.com/downloads/pc), and the Mac version [here](https://slack.com/downloads/mac). You can also download these applications from slack.com by navigating to "Product" in the menu bar and selecting "Download Slack". Once you have downloaded the application, go through the installation process and login using the account you just established.
 
-## The 2023 Biosystems Analytics Workspace
+## The 2024 Biosystems Analytics Workspace
 
-As part of this class, we will all work together transparently in the 2023 Biosystems Analytics Slack Workspace. You will receive an invitation to this workspace at the beginning of the semester under your university email (that you used to create your Slack account). From the Slack menu bar, you can add this workspace by selecting "File" -> "Workspace" -> "Sign in to another Workspace". Alternatively you can click on the "+" sign on the left side of the Slack application.
+As part of this class, we will all work together transparently in the 2024 Biosystems Analytics Slack Workspace. You will receive an invitation to this workspace at the beginning of the semester under your university email (that you used to create your Slack account). Or, you can use this [link](https://join.slack.com/t/2024biosystem-ddo1658/shared_invite/zt-2aa8irjw0-f2~fq08R55xzwKyKO1WOgQ0) to join. From the Slack menu bar, you can add this workspace by selecting "File" -> "Workspace" -> "Sign in to another Workspace". Alternatively you can click on the "+" sign on the left side of the Slack application.
 
 ## Use channels for getting help on specific topics
 

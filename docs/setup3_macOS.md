@@ -10,18 +10,13 @@ We will be using Python Version 3.11.1. Let's install it. We can download the in
 
 Now, let's tell your mac which version of Python to use, we do this by updating your $PATH. The version of Python that you just installed went into the /usr/local/bin directory by default. And by default macOS users are in the zsh Unix Shell. This means we need to update your ~/.zshrc file with the following aliases to tell your operating system where to find the newest versions of Python and pip.
 
-First, pull up a terminal window (under the Utils folder in Applications). Then follow the instructions below. Edit the .zshrc file and add the lines below, anywhere in the file, then save.
+First, pull up a terminal window (under the Utils folder in Applications). Then copy/paste the commands below into the terminal to set up the correct version of python
 
 ```
-nano ~/.zshrc
-```
-
-Add these lines:
-```
-alias python=/usr/local/bin/python3.11
-alias python3=/usr/local/bin/python3.11
-alias pip=/usr/local/bin/pip3.11
-alias pip3=/usr/local/bin/pip3.11
+echo `alias python=/usr/local/bin/python3.11` >> ~/.zshrc
+echo `alias python3=/usr/local/bin/python3.11' >> ~/.zshrc
+echo `alias pip=/usr/local/bin/pip3.11' >> ~/.zshrc
+echo `alias pip3=/usr/local/bin/pip3.11' >> ~/.zshrc
 ```
 
 Once you do this, you need to refresh your .zshrc to have the changes take effect:
@@ -61,9 +56,9 @@ We need to tell VScode which version of Python to use, and point to the latest v
 
 ![5vs](./images/5_vscode_select_python.png "Select Python Interpreter from the command pallete VS Code")
 
-## Cloning a copy of your Class GitHub repository (be434-spring-2023) onto your laptop and using in VS Code
+## Cloning a copy of your Class GitHub repository (be434-spring-2023) onto your laptop and using it in VS Code
 
-You should have already created a copy of the class GitHub repository under your own web-based GitHub account. If not, go back to setup2_github to create a GitHub account and make a copy of the class GitHub repository. 
+You should have already created a copy of the class GitHub repository under your own web-based GitHub account. If not, go back to setup2_github to create a GitHub account and make a copy of the class GitHub repository.
 
 In this section, we will be cloning (or copying) your repository from your web-based GitHub repository to your laptop. Here is a [great video](https://www.youtube.com/watch?v=bz1KauFlbQI) that walks you through the steps for cloning a GitHib repository into VS Code. The overall steps are:
 
@@ -93,7 +88,7 @@ You can also use the [GitHub Desktop application](https://desktop.github.com/) t
 
 ## Installing Python modules for running tests on your code
 
-Now that you have downloaded the class repository, you can install all of the Python modules we will use in the class to test you code (found in the be434-spring-2023/docs/requirements.txt file). Python modules (or code packages) are written by people in Python community and can be used by anyone to perform certain functions in Python. We are going to use several Python modules in this class to test your code and make sure it meets community standards. Open a terminal in VS Code (Terminal -> New Terminal) which should take you to the be434-spring-2023 folder, then navigate to the docs folder like so:
+Now that you have downloaded the class repository, you can install all of the Python modules we will use in the class to test you code (found in the be434-Spring2024/docs/requirements.txt file). Python modules (or code packages) are written by people in Python community and can be used by anyone to perform certain functions in Python. We are going to use several Python modules in this class to test your code and make sure it meets community standards. Open a terminal in VS Code (Terminal -> New Terminal) which should take you to the be434-Spring2024 folder, then navigate to the docs folder like so:
 
 ```
 cd ./docs
